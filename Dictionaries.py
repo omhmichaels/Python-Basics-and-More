@@ -1,3 +1,4 @@
+
 """
 # 
 # Author: l33tH@x0rxxGh0u1
@@ -6,25 +7,33 @@
 #
 #
 """
-#
-#
-#
-#
 
 
+### Python Dictionaries
+"""
 
-### Dictionaries
+1) Always keyword arguements
 
-# composed of keys and values'
-
-xDict = {'Jack':15,'Alice':12,'Kevin':17}
-
-print(xDict['Jack'])
-
-xDict['Tim'] = 14
-
-del xDict['Tim']
-
-xDict['Tim'] = [15, 'blonde']
+{} == dict
 
 
+"""
+
+print(exDict)
+exDict = {'Jack':15, 'Bob':22, 'Alice':12, 'Kevin':17}
+
+print(exDict[Jack])
+
+exDict['Tim'] = 14
+
+print(exDict['Tim'])
+
+# Deletion
+
+del exDict['Tim']
+
+print(exDict['Tim'])
+
+exDict['Tim'] = 14
+
+exDict['Jack'] = [15, 'blonde']
